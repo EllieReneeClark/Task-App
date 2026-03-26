@@ -1,4 +1,5 @@
 import "./login.css";
+import { Link } from "react-router-dom";
 
 export default function Login() {
 
@@ -19,6 +20,9 @@ export default function Login() {
                 <br></br>
                 <button type="submit" className="login-button">Log In</button>      
             </form>
+                <Link to="/signup">
+                    <button className="sign-up-button">Sign Up</button>
+                </Link>
         </div>
         <audio autoPlay loop controls className="audio-player">
             <source src="LoginMusic1.mp3" type="audio/mpeg" />

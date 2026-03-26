@@ -67,6 +67,11 @@ html, body{
 
 }
 
+.login-button {
+    padding: 10px;
+    font-size: 15px;
+}
+
 .audio-player {
     position: fixed;
     bottom: 20px;
